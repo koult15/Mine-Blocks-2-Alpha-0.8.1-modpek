@@ -1,0 +1,1011 @@
+{
+	"meta":{
+		"name":"Default Mine Blocks 2 Texture Pack",
+		"namespace":"mine_blocks_2",
+		"author":"Zanzlanz",
+		"game_version":"2.0.8"
+	},
+	"compositing":{
+		"stone":[
+			{"id":"black"},
+			{"id":"stone"}
+		],
+		"dirt":[
+			{"id":"black"},
+			{"id":"dirt"}
+		],
+		"dirt_gravel":[
+			{"id":"dirt"},
+			{"id":"dirt_gravel"}
+		],
+		"dirt_grass":[
+			{"id":"dirt"},
+			{"id":"dirt_grass"}
+		],
+		"dirt_grass11":[
+			{"id":"black"},
+			{"id":"dirt_grass11"}
+		],
+		"dirt_grass12":[
+			{"id":"black"},
+			{"id":"dirt_grass12"}
+		],
+		"dirt_grass21":[
+			{"id":"black"},
+			{"id":"dirt"},
+			{"id":"dirt_grass21"}
+		],
+		"dirt_grass22":[
+			{"id":"black"},
+			{"id":"dirt"},
+			{"id":"dirt_grass22"}
+		],
+		"coal_ore":[
+			{"id":"stone"},
+			{"id":"coal_ore"}
+		],
+		"iron_ore":[
+			{"id":"stone"},
+			{"id":"iron_ore"}
+		],
+		"gold_ore":[
+			{"id":"stone"},
+			{"id":"gold_ore"}
+		],
+		"diamond_ore":[
+			{"id":"stone"},
+			{"id":"diamond_ore"}
+		],
+		"copper_ore":[
+			{"id":"stone"},
+			{"id":"copper_ore"}
+		]
+	},
+	"images":[
+		{
+			"meta":{
+				"file":"utility.png",
+				"unit_size":16
+			},
+			"textures":{
+				"black":{
+					"x":0, "y":0
+				}
+			}
+		},
+		{
+			"meta":{
+				"file":"textures.png",
+				"unit_size":16
+			},
+			"textures":{
+				"missing":{
+					"x":15, "y":25
+				},
+				"stone":{
+					"x":0, "y":0
+				},
+				"stone_slate":{
+					"x":1, "y":0
+				},
+				"stone_syenite":{
+					"x":2, "y":0
+				},
+				"stone_gneiss":{
+					"x":3, "y":0
+				},
+				"stone_bricks_x":{
+					"x":0, "y":5
+				},
+				"stone_basalt_column":{
+					"x":4, "y":0
+				},
+				"stone_basalt_column_top":{
+					"x":5, "y":0
+				},
+				"rock":{
+					"x":8, "y":2
+				},
+				"boulder":{
+					"x":10, "y":5,
+					"width":3, "height":2
+				},
+				"spikes_floor":{
+					"x":7, "y":2
+				},
+				"spikes_ceiling":{
+					"x":7, "y":2,
+					"flipY":true
+				},
+				"cobblestone":{
+					"x":0, "y":3
+				},
+				"cobblestone_moss":{
+					"x":0, "y":4
+				},
+				"stone_bricks":{
+					"x":0, "y":1
+				},
+				"stone_bricks_moss":{
+					"x":0, "y":2
+				},
+
+				"wood_pine":{
+					"x":1, "y":2
+				},
+				"leaves_pine":{
+					"x":2, "y":2
+				},
+				"planks_pine":{
+					"x":3, "y":2
+				},
+				"wood_birch":{
+					"x":1, "y":3
+				},
+				"leaves_birch":{
+					"x":2, "y":3
+				},
+				"planks_birch":{
+					"x":3, "y":3
+				},
+				"wood_orange":{
+					"x":1, "y":4
+				},
+				"leaves_orange":{
+					"x":2, "y":4
+				},
+				"planks_orange":{
+					"x":1, "y":5
+				},
+				"leaves_orange_flower":{
+					"x":2, "y":5
+				},
+				"flower_orange_tree":{
+					"x":18, "y":1
+				},
+				"vines_orange":{
+					"x":3, "y":4
+				},
+				"vines_orange_bottom":{
+					"x":3, "y":5
+				},
+
+				"torch":{
+					"x":10, "y":4
+				},
+				"torch1":{
+					"x":9, "y":4
+				},
+				"torch2":{
+					"x":9, "y":4,
+					"flipX":true
+				},
+
+				"dirt":{
+					"x":1, "y":1
+				},
+				"dirt_gravel":{
+					"x":2, "y":1
+				},
+				"dirt_grass":{
+					"x":3, "y":1
+				},
+				"dirt_grass11":{
+					"x":4, "y":1
+				},
+				"dirt_grass12":{
+					"x":5, "y":1
+				},
+				"dirt_grass21":{
+					"x":6, "y":1
+				},
+				"dirt_grass22":{
+					"x":7, "y":1
+				},
+
+				"bush":{
+					"x":12, "y":2
+				},
+				"bush_desert":{
+					"x":6, "y":2
+				},
+
+				"grass_tall":{
+					"x":9, "y":2
+				},
+				"grass_medium":{
+					"x":10, "y":2
+				},
+				"grass_short":{
+					"x":11, "y":2
+				},
+				"grass_double":{
+					"x":9, "y":5,
+					"height":2
+				},
+
+				"flower_patch_yellow":{
+					"x":13, "y":2
+				},
+				"flower_patch_red":{
+					"x":14, "y":2
+				},
+				"flower_bulb":{
+					"x":13, "y":4
+				},
+				"flower_red_monocot":{
+					"x":13, "y":5,
+					"height":2
+				},
+				"cotton_large":{
+					"x":11, "y":7,
+					"width":2, "height":2
+				},
+				"cotton_small":{
+					"x":13, "y":7,
+					"height":2
+				},
+
+				"mushrooms":{
+					"x":11, "y":4
+				},
+				"mushrooms1":{
+					"x":12, "y":4
+				},
+				"mushrooms2":{
+					"x":12, "y":4,
+					"flipX":true
+				},
+				"mushroom_tall":{
+					"x":9, "y":7,
+					"height":2
+				},
+
+				"sand":{
+					"x":8, "y":1
+				},
+				"sand_gravel":{
+					"x":9, "y":1
+				},
+
+				"cactus":{
+					"x":7, "y":3
+				},
+				"cactus_cap":{
+					"x":8, "y":3
+				},
+				"cactus_cap_flower":{
+					"x":9, "y":3
+				},
+				"cactus_flower":{
+					"x":17, "y":1
+				},
+				"cactus_branches_left":{
+					"x":11, "y":3
+				},
+				"cactus_branches_right":{
+					"x":13, "y":3
+				},
+				"cactus_branches_left_and_right":{
+					"x":12, "y":3
+				},
+				"cactus_connects_right":{
+					"x":10, "y":3
+				},
+				"cactus_connects_left":{
+					"x":14, "y":3
+				},
+
+				"cobweb1":{
+					"x":10, "y":7,
+					"height":2
+				},
+				"cobweb2":{
+					"x":10, "y":7,
+					"height":2,
+					"flipX":true
+				},
+				"cobweb3":{
+					"x":10, "y":7,
+					"height":2,
+					"flipY":true
+				},
+				"cobweb4":{
+					"x":10, "y":7,
+					"height":2,
+					"flipX":true,
+					"flipY":true
+				},
+
+				"sandstone":{
+					"x":10, "y":1
+				},
+				"bedrock":{
+					"x":13, "y":1
+				},
+				"coal_ore":{
+					"x":11, "y":0
+				},
+				"iron_ore":{
+					"x":12, "y":0
+				},
+				"gold_ore":{
+					"x":13, "y":0
+				},
+				"diamond_ore":{
+					"x":14, "y":0
+				},
+				"copper_ore":{
+					"x":10, "y":0
+				},
+				"vine":{
+					"x":14, "y":4
+				},
+				"vines":{
+					"x":14, "y":5
+				},
+				"roots_plant1":{
+					"x":6, "y":3
+				},
+				"roots_plant2":{
+					"x":6, "y":4
+				},
+
+				"gravel":{
+					"x":11, "y":1
+				},
+				"obsidian":{
+					"x":12, "y":1
+				},
+				"tnt":{
+					"x":7, "y":2
+				},
+				"sapling_pine":{
+					"x":4, "y":2
+				},
+				"sapling_birch":{
+					"x":4, "y":3
+				},
+				"sapling_orange":{
+					"x":2, "y":4
+				},
+
+				"water":{
+					"x":15, "y":0
+				},
+				"water1":{
+					"x":15, "y":0
+				},
+				"water2":{
+					"x":15, "y":1
+				},
+				"water3":{
+					"x":15, "y":2
+				},
+				"water4":{
+					"x":15, "y":3
+				},
+
+				"lava":{
+					"x":16, "y":0
+				},
+				"lava1":{
+					"x":16, "y":0
+				},
+				"lava2":{
+					"x":16, "y":1
+				},
+				"lava3":{
+					"x":16, "y":2
+				},
+				"lava4":{
+					"x":16, "y":3
+				},
+
+				"wool":{
+					"x":14, "y":1
+				},
+
+				"stick":{
+					"x":17, "y":0
+				},
+				"coal":{
+					"x":18, "y":0
+				},
+				"charcoal":{
+					"x":18, "y":0
+				},
+				"iron_ingot":{
+					"x":22, "y":0
+				},
+				"gold_ingot":{
+					"x":23, "y":0
+				},
+				"copper_ingot":{
+					"x":24, "y":0
+				},
+				"diamond":{
+					"x":25, "y":0
+				},
+				"cotton":{
+					"x":14, "y":8
+				},
+				"cotton_drop":{
+					"x":19, "y":0
+				},
+				"string":{
+					"x":20, "y":0
+				},
+				"rock_drop":{
+					"x":21, "y":0
+				},
+				"bucket_empty":{
+					"x":21, "y":1
+				},
+				"bucket_water":{
+					"x":21, "y":2
+				},
+				"bucket_lava":{
+					"x":21, "y":3
+				},
+				"chest_battered":{
+					"x":7, "y":4
+				},
+				"chest_battered_open":{
+					"x":8, "y":4
+				},
+				"chest":{
+					"x":7, "y":5
+				},
+				"chest_open":{
+					"x":8, "y":5
+				},
+				"campfire":{
+					"x":9, "y":9,
+					"width":3, "height":2
+				},
+				"campfire_lit":{
+					"x":12, "y":9,
+					"width":3, "height":2
+				},
+				"campfire_drop":{
+					"x":19, "y":1
+				},
+				"door_wood_pine":{
+					"x":26, "y":0,
+					"height":2
+				},
+				"door_wood_pine_closed":{
+					"x":27, "y":0,
+					"height":2
+				},
+				"door_wood_pine_drop":{
+					"x":26, "y":2
+				},
+				"door_wood_birch":{
+					"x":28, "y":0,
+					"height":2
+				},
+				"door_wood_birch_closed":{
+					"x":29, "y":0,
+					"height":2
+				},
+				"door_wood_birch_drop":{
+					"x":28, "y":2
+				},
+				"door_wood_orange":{
+					"x":30, "y":0,
+					"height":2
+				},
+				"door_wood_orange_closed":{
+					"x":31, "y":0,
+					"height":2
+				},
+				"door_wood_orange_drop":{
+					"x":30, "y":2
+				},
+				"bed":{
+					"x":6, "y":6,
+					"width":2
+				},
+				"bed_drop":{
+					"x":8, "y":6
+				},
+				
+				"ladder_wood":{
+					"x":6, "y":5
+				},
+
+				"coin_copper":{
+					"x":24, "y":2
+				},
+				"coin_gold":{
+					"x":23, "y":2
+				},
+
+				"iron_block":{
+					"x":22, "y":1
+				},
+				"gold_block":{
+					"x":23, "y":1
+				},
+				"copper_block":{
+					"x":24, "y":1
+				},
+
+				"pickaxe_wood":{
+					"x":17, "y":2
+				},
+				"pickaxe_stone":{
+					"x":18, "y":2
+				},
+				"pickaxe_iron":{
+					"x":19, "y":2
+				},
+				"pickaxe_diamond":{
+					"x":20, "y":2
+				},
+				"shovel_wood":{
+					"x":17, "y":3
+				},
+				"shovel_stone":{
+					"x":18, "y":3
+				},
+				"shovel_iron":{
+					"x":19, "y":3
+				},
+				"shovel_diamond":{
+					"x":20, "y":3
+				},
+				"axe_wood":{
+					"x":17, "y":4
+				},
+				"axe_stone":{
+					"x":18, "y":4
+				},
+				"axe_iron":{
+					"x":19, "y":4
+				},
+				"axe_diamond":{
+					"x":20, "y":4
+				},
+				"sword_wood":{
+					"x":17, "y":5
+				},
+				"sword_stone":{
+					"x":18, "y":5
+				},
+				"sword_iron":{
+					"x":19, "y":5
+				},
+				"sword_diamond":{
+					"x":20, "y":5
+				},
+
+				"blockSelector1":{
+					"x":0, "y":15
+				},
+				"blockSelector2":{
+					"x":1, "y":15
+				},
+				"blockSelector3":{
+					"x":2, "y":15
+				},
+
+				"heartFull":{
+					"x":0, "y":13
+				},
+				"heartHalf":{
+					"x":1, "y":13
+				},
+				"heartEmpty":{
+					"x":2, "y":13
+				},
+
+				"airFull":{
+					"x":3, "y":13
+				},
+				"airHalf":{
+					"x":4, "y":13
+				},
+				"airEmpty":{
+					"x":5, "y":13
+				},
+
+				"break1":{
+					"x":0, "y":14
+				},
+				"break2":{
+					"x":1, "y":14
+				},
+				"break3":{
+					"x":2, "y":14
+				},
+				"break4":{
+					"x":3, "y":14
+				},
+				"break5":{
+					"x":4, "y":14
+				},
+				"break6":{
+					"x":5, "y":14
+				},
+				"break7":{
+					"x":6, "y":14
+				}
+			}
+		},
+		{
+			"meta":{
+				"file":"sky.png",
+				"unit_size":16
+			},
+			"textures":{
+				"sun":{
+					"x":12, "y":0,
+					"width":3, "height":3
+				},
+				"moon1":{
+					"x":6, "y":0,
+					"width":2, "height":2
+				},
+				"moon2":{
+					"x":8, "y":0,
+					"width":2, "height":2
+				},
+				"moon3":{
+					"x":10, "y":0,
+					"width":2, "height":2
+				},
+				"cloud1":{
+					"x":0, "y":3,
+					"width":15, "height":2
+				},
+				"cloud2":{
+					"x":0, "y":5,
+					"width":15, "height":2
+				},
+				"cloud3":{
+					"x":0, "y":7,
+					"width":15, "height":1
+				}
+			}
+		},
+		{
+			"meta":{
+				"file":"gui.png",
+				"unit_size":1
+			},
+			"textures":{
+				"fireG":{
+					"x":0, "y":176,
+					"width":96, "height":16
+				},
+				"inventoryBox1":{
+					"x":379, "y":301,
+					"width":31, "height":33
+				},
+				"inventoryBox2":{
+					"x":410, "y":301,
+					"width":31, "height":33
+				},
+				"transparentInventoryBlock":{
+					"x":442, "y":301,
+					"width":1, "height":1
+				},
+				"buttonLeft1":{
+					"x":0, "y":247,
+					"width":16, "height":32
+				},
+				"buttonMiddle1":{
+					"x":16, "y":247,
+					"width":16, "height":32
+				},
+				"buttonRight1":{
+					"x":32, "y":247,
+					"width":16, "height":32
+				},
+				"buttonLeft2":{
+					"x":48, "y":247,
+					"width":16, "height":32
+				},
+				"buttonMiddle2":{
+					"x":64, "y":247,
+					"width":16, "height":32
+				},
+				"buttonRight2":{
+					"x":80, "y":247,
+					"width":16, "height":32
+				},
+				"buttonLeft3":{
+					"x":0, "y":279,
+					"width":16, "height":32
+				},
+				"buttonMiddle3":{
+					"x":16, "y":279,
+					"width":16, "height":32
+				},
+				"buttonRight3":{
+					"x":32, "y":279,
+					"width":16, "height":32
+				},
+				"genIcon1":{
+					"x":0, "y":152,
+					"width":24, "height":24
+				},
+				"genIcon2":{
+					"x":24, "y":152,
+					"width":24, "height":24
+				},
+				"genIcon3":{
+					"x":48, "y":152,
+					"width":24, "height":24
+				},
+				"genIcon4":{
+					"x":72, "y":152,
+					"width":24, "height":24
+				},
+				"itemBarGrey":{
+					"x":32, "y":120,
+					"width":26, "height":4
+				},
+				"itemBarGreen":{
+					"x":32, "y":124,
+					"width":26, "height":4
+				},
+				"itemBarRed":{
+					"x":32, "y":128,
+					"width":26, "height":4
+				},
+
+				"editFG":{
+					"x":96, "y":136,
+					"width":24, "height":24
+				},
+				"editBG":{
+					"x":96, "y":160,
+					"width":24, "height":24
+				},
+
+				"inventoryGraphic":{
+					"x":125, "y":68,
+					"width":330, "height":133
+				},
+				"creativeInventory":{
+					"x":125, "y":201,
+					"width":330, "height":100
+				},
+				"craftingBG":{
+					"x":125, "y":301,
+					"width":255, "height":80
+				},
+				"chestBG":{
+					"x":125, "y":0,
+					"width":330, "height":68
+				},
+				"campfireBG":{
+					"x":0, "y":0,
+					"width":103, "height":120
+				},
+				"menuBG":{
+					"x":253, "y":381,
+					"width":175, "height":32
+				},
+				"trashClosed":{
+					"x":0, "y":120,
+					"width":16, "height":26
+				},
+				"trashOpen":{
+					"x":16, "y":120,
+					"width":16, "height":26
+				},
+				"infoOut":{
+					"x":96, "y":184,
+					"width":24, "height":24
+				},
+				"infoOver":{
+					"x":96, "y":208,
+					"width":24, "height":24
+				},
+				"editOut":{
+					"x":0, "y":192,
+					"width":21, "height":23
+				},
+				"editOver":{
+					"x":21, "y":192,
+					"width":21, "height":23
+				},
+				"menuBarOut":{
+					"x":0, "y":413,
+					"width":250, "height":50
+				},
+				"menuBarOver":{
+					"x":0, "y":463,
+					"width":250, "height":50
+				},
+				"menuBarDown":{
+					"x":0, "y":513,
+					"width":250, "height":50
+				},
+				"pixelLighting":{
+					"x":58, "y":120,
+					"width":64, "height":16
+				},
+				"bordersOption":{
+					"x":42, "y":192,
+					"width":32, "height":16
+				},
+				"newspaper":{
+					"x":32, "y":132,
+					"width":20, "height":20
+				},
+
+				"collapseDown":{
+					"x":0, "y":215,
+					"width":16, "height":16
+				},
+				"collapseUp":{
+					"x":16, "y":215,
+					"width":16, "height":16
+				},
+				"arrowLeft":{
+					"x":0, "y":231,
+					"width":16, "height":16
+				},
+				"arrowRight":{
+					"x":16, "y":231,
+					"width":16, "height":16
+				},
+				"arrowLeftLong":{
+					"x":32, "y":215,
+					"width":32, "height":16
+				},
+				"arrowRightLong":{
+					"x":32, "y":231,
+					"width":32, "height":16
+				},
+
+				"discordButton":{
+					"x":125, "y":381,
+					"width":32, "height":32
+				},
+				"twitterButton":{
+					"x":157, "y":381,
+					"width":32, "height":32
+				},
+				"patreonButton":{
+					"x":189, "y":381,
+					"width":32, "height":32
+				},
+				"redditButton":{
+					"x":221, "y":381,
+					"width":32, "height":32
+				}
+			}
+		},
+		{
+			"meta":{
+				"file":"borders.png",
+				"unit_size":16
+			},
+			"textures":{
+				"W0":{
+					"x":0, "y":0
+				},
+				"W8":{
+					"x":1, "y":0
+				},
+				"W4":{
+					"x":2, "y":0
+				},
+				"W12":{
+					"x":3, "y":0
+				},
+				"W2":{
+					"x":0, "y":1
+				},
+				"W10":{
+					"x":1, "y":1
+				},
+				"W6":{
+					"x":2, "y":1
+				},
+				"W14":{
+					"x":3, "y":1
+				},
+				"W1":{
+					"x":0, "y":2
+				},
+				"W9":{
+					"x":1, "y":2
+				},
+				"W5":{
+					"x":2, "y":2
+				},
+				"W13":{
+					"x":3, "y":2
+				},
+				"W3":{
+					"x":0, "y":3
+				},
+				"W11":{
+					"x":1, "y":3
+				},
+				"W7":{
+					"x":2, "y":3
+				},
+				"W15":{
+					"x":3, "y":3
+				}
+			}
+		},
+		{
+			"meta":{
+				"file":"daymond.png",
+				"unit_size":16
+			},
+			"textures":{
+				"char01":{
+					"x":0, "y":0,
+					"width":1, "height":2
+				},
+				"char11":{
+					"x":0, "y":1,
+					"width":1, "height":2
+				},
+				"char21":{
+					"x":1, "y":0,
+					"width":1, "height":2
+				},
+				"char22":{
+					"x":2, "y":0,
+					"width":1, "height":2
+				},
+				"char23":{
+					"x":3, "y":0,
+					"width":1, "height":2
+				},
+				"char24":{
+					"x":4, "y":0,
+					"width":1, "height":2
+				},
+				"char25":{
+					"x":5, "y":0,
+					"width":1, "height":2
+				},
+				"char26":{
+					"x":6, "y":0,
+					"width":1, "height":2
+				},
+				"char31":{
+					"x":1, "y":2,
+					"width":1, "height":2
+				},
+				"char32":{
+					"x":2, "y":2,
+					"width":1, "height":2
+				},
+				"char33":{
+					"x":3, "y":2,
+					"width":1, "height":2
+				},
+				"char34":{
+					"x":4, "y":2,
+					"width":1, "height":2
+				},
+				"char35":{
+					"x":5, "y":2,
+					"width":1, "height":2
+				},
+				"char36":{
+					"x":6, "y":2,
+					"width":1, "height":2
+				},
+				"char41":{
+					"x":0, "y":3,
+					"width":2, "height":2
+				}
+			}
+		}
+	]
+}

@@ -5223,7 +5223,36 @@ var $lime_init = function(r, k) {
                 null != a && Object.prototype.hasOwnProperty.call(a, "rootPath") && (La.rootPath = Y.field(a, "rootPath"),
                 ta.endsWith(La.rootPath, "/") || (La.rootPath += "/"));
                 null == La.rootPath && (La.rootPath = "./");
-                a = ab.fromManifest(eb.parse('{"name":null,"assets":"aoy8:positioni15y4:sizezy4:typey5:IMAGEy2:idy29:assets%2Fimages%2Fborders.pngy6:lengthi433y7:preloadtgoR0i448R1zR2R3R4y29:assets%2Fimages%2Fdaymond.pngR6i2865R7tgoR0i3313R1zR2R3R4y40:assets%2Fimages%2Ffont_jagged_dreams.pngR6i17551R7tgoR0i20864R1zR2R3R4y25:assets%2Fimages%2Fgui.pngR6i73953R7tgoR0i94817R1zR2R3R4y28:assets%2Fimages%2Fheader.pngR6i12365R7tgoR0i107182R1zR2R3R4y32:assets%2Fimages%2Floading_bg.pngR6i18906R7tgoR0i126088R1zR2R3R4y25:assets%2Fimages%2Fsky.pngR6i18077R7tgoR0i144165R1zR2R3R4y27:assets%2Fimages%2Fstars.pngR6i1739020R7tgoR0i1883185R1zR2y4:TEXTR4y31:assets%2Fimages%2Ftextures.jsonR6i2589goR0i1885774R1zR2R3R4y30:assets%2Fimages%2Ftextures.pngR6i58737R7tgoR0i1944511R1zR2R3R4y29:assets%2Fimages%2Futility.pngR6i100R7tgoR0i1944611R1zR2R3R4y30:assets%2Fimages%2Fzanzlanz.pngR6i2935R7tgoR0i1947546R1zR2R15R4y28:assets%2Flanguages%2Fde.jsonR6i3452goR0i1950998R1zR2R15R4y31:assets%2Flanguages%2Fen-US.jsonR6i3116goR0i1954114R1zR2R15R4y31:assets%2Flanguages%2Fes-MX.jsonR6i3318goR0i1957432R1zR2R15R4y31:assets%2Flanguages%2Fpt-BR.jsonR6i3307goR1i4178R2y5:MUSICR4y27:assets%2Fsfx%2Fbtn_down.mp3y9:pathGroupaR25y27:assets%2Fsfx%2Fbtn_down.ogghR7tgoR1i5593R2y5:SOUNDR4R27R26aR25R27hgoR1i4178R2R24R4y27:assets%2Fsfx%2Fbtn_over.mp3R26aR29y27:assets%2Fsfx%2Fbtn_over.ogghR7tgoR1i7295R2R28R4R30R26aR29R30hgoR1i77322R2R24R4y34:assets%2Fsfx%2Fzanzlanz-splash.mp3R26aR31y34:assets%2Fsfx%2Fzanzlanz-splash.ogghR7tgoR1i169226R2R28R4R32R26aR31R32hgh","rootPath":null,"version":2,"libraryArgs":["lib/default.pak","gzip"],"libraryType":"lime.utils.PackedAssetLibrary"}', La.rootPath));
+                const modpekAssetLibrary = {
+                    name: "modpekAssetLibrary",
+                    assets: [
+                        {type: "IMAGE", id: "assets/images/borders.png", path: "assets/images/borders.png", preload: true},
+                        {type: "IMAGE", id: "assets/images/daymond.png", path: "assets/images/daymond.png", preload: true},
+                        {type: "IMAGE", id: "assets/images/font_jagged_dreams.png", path: "assets/images/font_jagged_dreams.png", preload: true},
+                        {type: "IMAGE", id: "assets/images/gui.png", path: "assets/images/gui.png", preload: true},
+                        {type: "IMAGE", id: "assets/images/header.png", path: "assets/images/header.png", preload: true},
+                        {type: "IMAGE", id: "assets/images/loading_bg.png", path: "assets/images/loading_bg.png", preload: true},
+                        {type: "IMAGE", id: "assets/images/sky.png", path: "assets/images/sky.png", preload: true},
+                        {type: "IMAGE", id: "assets/images/stars.png", path: "assets/images/stars.png", preload: true},
+                        {type: "TEXT", id: "assets/images/textures.json", path: "assets/images/textures.json", preload: true},
+                        {type: "IMAGE", id: "assets/images/textures.png", path: "assets/images/textures.png", preload: true},
+                        {type: "IMAGE", id: "assets/images/utility.png", path: "assets/images/utility.png", preload: true},
+                        {type: "IMAGE", id: "assets/images/zanzlanz.png", path: "assets/images/zanzlanz.png", preload: true},
+                        {type: "MUSIC", id: "assets/sfx/btn_down.mp3", pathGroup: ["assets/sfx/btn_down.mp3", "assets/sfx/btn_down.ogg"], preload: true},
+                        {type: "SOUND", id: "assets/sfx/btn_down.ogg", pathGroup: ["assets/sfx/btn_down.mp3", "assets/sfx/btn_down.ogg"], preload: true},
+                        {type: "MUSIC", id: "assets/sfx/btn_over.mp3", pathGroup: ["assets/sfx/btn_over.mp3", "assets/sfx/btn_over.ogg"], preload: true},
+                        {type: "SOUND", id: "assets/sfx/btn_over.ogg", pathGroup: ["assets/sfx/btn_over.mp3", "assets/sfx/btn_over.ogg"], preload: true},
+                        {type: "MUSIC", id: "assets/sfx/zanzlanz-splash.mp3", pathGroup: ["assets/sfx/zanzlanz-splash.mp3", "assets/sfx/zanzlanz-splash.ogg"], preload: true},
+                        {type: "SOUND", id: "assets/sfx/zanzlanz-splash.ogg", pathGroup: ["assets/sfx/zanzlanz-splash.mp3", "assets/sfx/zanzlanz-splash.ogg"], preload: true},
+                        {type: "TEXT", id: "assets/languages/de.json", path: "assets/languages/de.json", preload: true},
+                        {type: "TEXT", id: "assets/languages/en-US.json", path: "assets/languages/en-US.json", preload: true},
+                        {type: "TEXT", id: "assets/languages/en-MX.json", path: "assets/languages/es-MX.json", preload: true},
+                        {type: "TEXT", id: "assets/languages/pt-BR.json", path: "assets/languages/pt-BR.json", preload: true}
+                    ],
+                    libraryArgs: [],
+                    libraryType: null
+                };
+                a = ab.fromManifest(modpekAssetLibrary);
                 la.registerLibrary("default", a);
                 a = la.getLibrary("default");
                 null != a ? La.preloadLibraries.push(a) : La.preloadLibraryNames.push("default")

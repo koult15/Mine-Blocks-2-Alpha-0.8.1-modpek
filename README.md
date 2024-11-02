@@ -1,4 +1,4 @@
-# Mine Blocks 2 Alpha 0.8.1
+# Mine Blocks 2 Alpha 0.8.1 modpek
 
 ## About the Game
 
@@ -6,7 +6,7 @@ Mine Blocks 2 is a 2D survival game inspired by games like Minecraft and Terrari
 
 ## This project
 
-This version of the game is a compilation of HTML5 game files for running an edited script, however an internet connection is still required for texture requests etc.
+modpek tries to be a mod loader, right now it doesn't seem like it but it will grow over time. Its functionality so far is that it allows loading assets from individual files instead of the "default.pak" library.
 
 # ! Warning !
 
@@ -28,7 +28,7 @@ To run the game you need download and unzip the files, next load the folder "Min
 ## Credits
 
 * Game developed by: Alex Lanzetta (Zanzlanz) `<alex@zanzlanz.com>`
-* Compilation of files for local use: koult
+* modpek developer: koult
 * Note: Do not claim the game as your own. Respect the work of the creator.
 
 Long live the Mine Blocks community!
