@@ -29,6 +29,9 @@ To run the game you need download and unzip the files, next load the folder "Min
 
 * Game developed by: Alex Lanzetta (Zanzlanz) `<alex@zanzlanz.com>`
 * modpek developer: koult
-* Note: Do not claim the game as your own. Respect the work of the creator.
+
+## Notes
+* Do not claim the game as your own. Respect the work of the creator.
+* Remember that this is not the game code written in haxe, it is a version compiled in javascript.
 
 Long live the Mine Blocks community!

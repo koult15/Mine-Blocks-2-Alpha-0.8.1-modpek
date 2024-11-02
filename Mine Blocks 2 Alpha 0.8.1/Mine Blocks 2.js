@@ -5246,7 +5246,7 @@ var $lime_init = function(r, k) {
                         {type: "SOUND", id: "assets/sfx/zanzlanz-splash.ogg", pathGroup: ["assets/sfx/zanzlanz-splash.mp3", "assets/sfx/zanzlanz-splash.ogg"], preload: true},
                         {type: "TEXT", id: "assets/languages/de.json", path: "assets/languages/de.json", preload: true},
                         {type: "TEXT", id: "assets/languages/en-US.json", path: "assets/languages/en-US.json", preload: true},
-                        {type: "TEXT", id: "assets/languages/en-MX.json", path: "assets/languages/es-MX.json", preload: true},
+                        {type: "TEXT", id: "assets/languages/es-MX.json", path: "assets/languages/es-MX.json", preload: true},
                         {type: "TEXT", id: "assets/languages/pt-BR.json", path: "assets/languages/pt-BR.json", preload: true}
                     ],
                     libraryArgs: [],
